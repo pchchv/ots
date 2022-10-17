@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 
+	"github.com/pchchv/ots/server/goredis"
+
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
-	"github.com/pchchv/ots/server/server/goredis"
 )
 
 type SECRET struct {
